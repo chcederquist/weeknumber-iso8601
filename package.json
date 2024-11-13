@@ -1,9 +1,17 @@
 {
   "name": "@chce/weeknumber-iso8601",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "type": "module",
   "description": "Function to calculate the week number of a given date",
-  "main": "index.ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js", 
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "build": "rollup -c && tsc --emitDeclarationOnly --declaration"
