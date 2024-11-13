@@ -1,8 +1,8 @@
 {
-  "name": "weeknumber-iso8601",
-  "version": "1.0.0",
+  "name": "@chce/weeknumber-iso8601",
+  "version": "1.0.1",
   "type": "module",
-  "description": "Function to calculate the week number of a give ndate",
+  "description": "Function to calculate the week number of a given date",
   "main": "index.ts",
   "scripts": {
     "test": "jest",
