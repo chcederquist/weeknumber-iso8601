@@ -1,0 +1,31 @@
+{
+  "name": "weeknumber-iso8601",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Function to calculate the week number of a give ndate",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c && tsc --emitDeclarationOnly --declaration"
+  },
+  "keywords": [
+    "weeknumber",
+    "ugenummer",
+    "ugenr",
+    "iso8601",
+    "iso-8601",
+    "week"
+  ],
+  "author": "Christian Pilegaard Cederquist",
+  "license": "MIT-0",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "rollup": "^4.25.0",
+    "ts-jest": "^29.2.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}
