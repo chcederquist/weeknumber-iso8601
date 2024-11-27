@@ -1,6 +1,6 @@
 # weeknumber-iso8601
 
-A lightweight(250 bytes minified) function to calculate the ISO 8601 week number for a given Date-object. Includes TS-definition.
+A lightweight(217 bytes minified) function to calculate the ISO 8601 week number for a given Date-object. Includes TS-definition.
 
 ## Installation
 

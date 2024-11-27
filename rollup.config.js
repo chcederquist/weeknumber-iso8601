@@ -14,7 +14,9 @@ export default {
       file: "dist/index.esm.min.js",
       format: "esm",
       name: "weeknumber-iso8601",
-      plugins: [terser()],
+      plugins: [terser({compress: {
+        booleans_as_integers: true,
+      }})],
     },
   ],
   plugins: [typescript()],
