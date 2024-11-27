@@ -1,6 +1,6 @@
 {
   "name": "@chce/weeknumber-iso8601",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "description": "Function to calculate the week number of a given date",
   "main": "dist/index.cjs.js",
